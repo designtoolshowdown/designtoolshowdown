@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadmap - Design Tool Showdown</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0a0e27;
+            --bg-card: #151937;
+            --accent-primary: #ff6b35;
+            --accent-secondary: #00d4ff;
+            --accent-tertiary: #b86bff;
+            --text-primary: #ffffff;
+            --text-secondary: #a8b2d1;
+            --border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Work Sans', sans-serif;
+            background: linear-gradient(135deg, var(--bg-dark) 0%, #1a1f45 100%);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 6vw, 3.5rem);
+            font-weight: 900;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary), var(--accent-tertiary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+        }
+
+        .content-block {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-left: 4px solid var(--accent-primary);
+        }
+
+        .content-block h2 {
+            color: var(--accent-primary);
+            margin-bottom: 1rem;
+            font-size: 1.75rem;
+        }
+
+        .content-block p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            color: var(--text-primary);
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(255, 107, 53, 0.3);
+        }
+
+        .back-link {
+            color: var(--accent-secondary);
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: var(--accent-primary);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--accent-secondary);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--accent-primary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p style="margin-bottom: 1rem;"><a href="index.html" class="back-link">← Back to Comparison</a></p>
+        
+        <h1>Roadmap & Updates</h1>
+        <p class="subtitle">Keeping Design Tool Showdown current and accurate</p>
+
+        <div class="content-block">
+            <h2>Active Development</h2>
+            <p>Design Tool Showdown is updated <strong>multiple times per month</strong> as tools release new features, adjust pricing, or launch major updates. This isn't a static page—it's a living resource that evolves with the tools it covers.</p>
+            
+            <p style="margin-top: 1rem;">When something changes in the design tool landscape, we update the comparison to reflect it. No waiting for quarterly reviews or annual refreshes.</p>
+        </div>
+
+        <div class="content-block">
+            <h2>Your Input Matters</h2>
+            <p>Have suggestions? See something that needs updating? Want a specific tool added or feature comparison?</p>
+            
+            <a href="/cdn-cgi/l/email-protection#b2d3d6dfdbdcf2d6d7c1dbd5dcc6dddddec1daddc5d6ddc5dc9cd1dddf8dc1c7d0d8d7d1c68ff6d7c1dbd5dc978082e6ddddde978082e1daddc5d6ddc5dc9780829f978082e1c7d5d5d7c1c6dbdddc94d0ddd6cb8fffcb978082c1c7d5d5d7c1c6dbdddc889780829782f69782f39782f69782f3" class="cta-button">
+                Submit Your Suggestions
+            </a>
+        </div>
+
+        <div class="content-block">
+            <h2>Support This Resource</h2>
+            <p>Design Tool Showdown is free and independently maintained. If you find it helpful, consider supporting its continued development.</p>
+            
+            <!-- TODO: REPLACE WITH YOUR BUY ME A COFFEE LINK -->
+            <a href="https://buymeacoffee.com/designtoolshowdown" target="_blank" rel="noopener" class="cta-button">
+                Buy Me a Coffee
+     
